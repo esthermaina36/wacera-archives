@@ -3,11 +3,15 @@ function Hero() {
     <>
       <h1>Wacera Archives</h1>
 
-      <h3>Remembering where I've been.</h3>
+      <h3> Remembering where I've been.
+  Celebrating where I am.
+  Dreaming about where I'm going.</h3>
 
       <p>
-        A collection of memories, dreams, places, books,
-        songs, and the little moments that shaped my journey.
+        Welcome to my little corner of the internet.
+  This is where memories are preserved,
+  dreams are recorded, adventures are celebrated, 
+  and life is remembered,one chapter at a time.
       </p>
     </>
   );
