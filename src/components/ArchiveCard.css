@@ -1,0 +1,35 @@
+.archive_card {
+  width: 100%;
+  max-width: 700px;
+
+  background: rgba(255, 255, 255, 0.75);
+
+  padding: 24px;
+
+  margin-bottom: 20px;
+
+  border-radius: 18px;
+
+  backdrop-filter: blur(5px);
+
+  transition: transform .3s ease,
+              box-shadow .3s ease;
+
+}
+
+.archive-card:hover {
+ transform: translateY(-8px) scale(1.01);
+
+  box-shadow: 0 12px 30px rgba(0,0,0,.12);
+}
+
+.archive-card h2 {
+  margin-bottom: 12px;
+}
+
+.archive-card p {
+  margin: 0;
+}
+.archive-card {
+  cursor: pointer;
+}

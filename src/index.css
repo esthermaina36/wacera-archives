@@ -1,87 +1,16 @@
 * {
   margin: 0;
   padding: 0;
-  box_sizing: boarder_box;
-  }
+  box-sizing: border-box;
+}
 
-  body {
-     margin-top: 10px;
-  padding: 16px 40px;
-
-  border: none;
-  border-radius: 40px;
-
-  background: rgba(255,255,255,.9);
+body {
+  background-image: url("./assets/backgrounds/wacera2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 
   color: #4b2c63;
-
-  font-size: 1rem;
-  font-weight: 600;
-
-  cursor: pointer;
-
-  transition: all .3s ease;
-
-  box-shadow: 0 8px 20px rgba(0,0,0,.15);
-     background-size: cover;
-    background-position:center;
-    background-repeat:no-repeat;
-
-    min-height:100vh;
-     background-image: url("./assets/backgrounds/wacera2.png");
-    }
-    main {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-      padding: 20px;
-    }
-    h1 {
-      font-size: 3.5rem;
-      margin-bottom: 20px;
-    }
-    
-     h3 {
-  color: #5b3b73;
-  font-weight: 500;
-  
-  margin-bottom: 20px;
-   margin-top:15px;
-    margin-bottom:35px;
-}
-    
-     p {
-      font-style: italic;
-      font-size: 1rem;
-      margin-bottom: 20px;
-      max-width: 600px;
-      opacity: 0.9;
-      line-height: 1.8;
-       max-width:700px;
-    line-height:1.9;
-    font-size:1.25rem;
-    color:#5a4866;
-      
-    }
-    button {
-       padding: 15px 35px;
-       width: 85%;
-  border: none;
-  border-radius: 50px;
-
-  background: white;
-  color: #2b1055;
-
-  font-size: 1rem;
-  font-weight: bold;
-
-  cursor: pointer;
-
-  transition: 0.3s;
-    }
-    button:hover {
-  transform:translateY(-4px);
-    box-shadow:0 15px 30px rgba(0,0,0,.25);
+  font-family: Georgia, serif;
 }

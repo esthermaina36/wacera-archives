@@ -1,3 +1,4 @@
+
 import Hero from "../components/Hero.jsx";
 import JourneyButton from "../components/JourneyButton.jsx";
 

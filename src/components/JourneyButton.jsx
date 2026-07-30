@@ -1,6 +1,9 @@
+import { Link } from "react-router-dom";
 function JourneyButton() {
     return (
-        <button> Journey Begins </button>
+        <Link to="/dashboard">
+    Journey Begins
+</Link>
     );
 
 }
