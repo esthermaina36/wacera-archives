@@ -15,7 +15,7 @@ function Dashboard() {
       <ArchiveCard
       title="🌍 My Exploits"
       description="Every minute I spent in these places, I forgot all the noise in the world and simply allowed my mind to wander."
-      to="/my-exploits"
+      to="/my_exploits"
       />
        <ArchiveCard
       title="📚 Books"
