@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./JourneyCard.css"
+import "./JourneyCard.css";
 function JourneyCard (props) {
     return (
         <Link to={props.to}>
