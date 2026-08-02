@@ -1,0 +1,19 @@
+.dove {
+  position: fixed;
+  top: 35px;
+  left: 50%;
+   transform: translateX(-50%);
+  z-index: 1000;
+  
+}
+
+.dove img {
+  width: 55px;
+  height: auto;
+  opacity: 0.9;
+  transition: transform 0.3s ease;
+}
+
+.dove img:hover {
+  transform: translateY(-3px) scale(1.08);
+}
