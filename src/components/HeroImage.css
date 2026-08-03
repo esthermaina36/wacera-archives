@@ -1,0 +1,19 @@
+.hero-image {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+
+    margin: 2.5rem auto;
+
+    border-radius: 18px;
+
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.18);
+
+    object-fit: cover;
+
+    transition: transform 0.35s ease;
+}
+
+.hero-image:hover {
+    transform: scale(1.02);
+}
