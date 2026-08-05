@@ -1,0 +1,32 @@
+.adventure-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 50px auto;
+    max-width: 700px;
+}
+
+.adventure-navigation a {
+    text-decoration: none;
+    color: #8c6d46;
+    font-weight: 600;
+
+    transition: color 0.3s ease,
+                transform 0.3s ease;
+}
+
+.adventure-navigation a:hover {
+    color: #5f4a2f;
+}
+
+.adventure-navigation a:first-child:hover {
+    color: #5f4a2f;
+    transform: translateX(-5px);
+}
+
+.adventure-navigation a:last-child:hover {
+    color: #5f4a2f;
+    transform: translateX(5px);
+}
+
