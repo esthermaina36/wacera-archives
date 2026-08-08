@@ -17,6 +17,8 @@ import Maumau from "./pages/my-exploits/Maumau";
 import Muruguru from "./pages/my-exploits/Muruguru";
 import Ololokwe from "./pages/my-exploits/Ololokwe";
 import Buffalo from "./pages/my-exploits/Buffalo";
+import Photos from "./pages/Photos";
+
 
 function App() {
   return (
@@ -40,6 +42,7 @@ function App() {
       <Route path="/my-exploits/muruguru-falls" element={<Muruguru/>} />
       <Route path="/my-exploits/mt-ololokwe" element={<Ololokwe/>} />
       <Route path="/my-exploits/buffallo-springs" element={<Buffalo/>} />
+      <Route path="/photos" element={<Photos />} />
     </Routes>
     </>
   );

@@ -1,0 +1,63 @@
+import flower1 from "../assets/photos/flowers/flower1.jpg";
+import flower2 from "../assets/photos/flowers/flower2.jpg";
+import flower3 from "../assets/photos/flowers/flower3.jpg";
+import flower4 from "../assets/photos/flowers/flower4.jpg";
+import flower5 from "../assets/photos/flowers/flower5.jpg";
+import flower6 from "../assets/photos/flowers/flower6.jpg";
+import flower7 from "../assets/photos/flowers/flower7.jpg";
+import flower8 from "../assets/photos/flowers/flower8.jpg";
+import flower9 from "../assets/photos/flowers/flower9.jpg";
+import flower10 from "../assets/photos/flowers/flower10.jpg";
+import flower11 from "../assets/photos/flowers/flower11.jpg";
+import flower12 from "../assets/photos/flowers/flower12.jpg";
+import flower13 from "../assets/photos/flowers/flower13.jpg";
+import flower14 from "../assets/photos/flowers/flower14.jpg";
+import flower15 from "../assets/photos/flowers/flower15.jpg";
+import flower16 from "../assets/photos/flowers/flower16.jpg";
+import flower17 from "../assets/photos/flowers/flower17.jpg";
+import flower18 from "../assets/photos/flowers/flower18.jpg";
+import flower19 from "../assets/photos/flowers/flower19.jpg";
+import flower20 from "../assets/photos/flowers/flower20.jpg";
+import flower21 from "../assets/photos/flowers/flower21.jpg";
+import flower22 from "../assets/photos/flowers/flower22.jpg";
+import flower23 from "../assets/photos/flowers/flower23.jpg";
+import flower24 from "../assets/photos/flowers/flower24.jpg";
+import flower25 from "../assets/photos/flowers/flower25.jpg";
+import flower26 from "../assets/photos/flowers/flower26.jpg";
+import flower27 from "../assets/photos/flowers/flower27.jpg";
+import flower28 from "../assets/photos/flowers/flower28.jpg";
+import flower29 from "../assets/photos/flowers/flower29.jpg";
+import flower30 from "../assets/photos/flowers/flower30.jpg";
+export const flowers = [
+  { image: flower1 },
+  { image: flower2 },
+  { image: flower3 },
+  { image: flower4 },
+  { image: flower5 },
+  { image: flower6 },
+  { image: flower7 },
+  { image: flower8 },
+  { image: flower9 },
+  { image: flower10 },
+  { image: flower11 },
+  { image: flower12 },
+  { image: flower13 },
+  { image: flower14 },
+  { image: flower15 },
+  { image: flower16 },
+  { image: flower17 },
+  { image: flower18 },
+  { image: flower19 },
+  { image: flower20 },
+  { image: flower21 },
+  { image: flower22 },
+  { image: flower23 },
+  { image: flower24 },
+  { image: flower25 },
+  { image: flower26 },
+  { image: flower27 },
+  { image: flower28 },
+  { image: flower29 },
+  { image: flower30 },
+];
+

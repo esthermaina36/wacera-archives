@@ -32,6 +32,11 @@ function Dashboard() {
       description="I write these here because every random thought, every unsaid word, and every emotion may not always be spoken, but I believe they deserve to be expressed. I express myself best through writing."
       to="/thoughts"
       />
+       <ArchiveCard
+      title="🎵 Photos"
+      description=""
+      to="/photos"
+      />
     <BackButton to="/">
  Home
 </BackButton>
