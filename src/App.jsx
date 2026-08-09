@@ -17,6 +17,7 @@ import Maumau from "./pages/my-exploits/Maumau";
 import Muruguru from "./pages/my-exploits/Muruguru";
 import Ololokwe from "./pages/my-exploits/Ololokwe";
 import Buffalo from "./pages/my-exploits/Buffalo";
+import Kiandangoro from "./pages/my-exploits/Kiandangoro";
 import Photos from "./pages/Photos";
 
 
@@ -41,7 +42,8 @@ function App() {
       <Route path="/my-exploits/maumau-caves" element={<Maumau/>} />
       <Route path="/my-exploits/muruguru-falls" element={<Muruguru/>} />
       <Route path="/my-exploits/mt-ololokwe" element={<Ololokwe/>} />
-      <Route path="/my-exploits/buffallo-springs" element={<Buffalo/>} />
+      <Route path="/my-exploits/buffalo-springs" element={<Buffalo/>} />
+       <Route path="/my-exploits/kiandangoro-forest" element={<Kiandangoro/>} />
       <Route path="/photos" element={<Photos />} />
     </Routes>
     </>

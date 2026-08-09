@@ -1,0 +1,64 @@
+.hero {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 30px;
+
+    text-align: center;
+}
+
+/* Main title */
+
+.hero h1 {
+    margin: 0 0 25px;
+
+    font-size: 4rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+    color: #4b3b2b;
+}
+
+/* Tagline */
+
+.hero h3 {
+    margin: 0 auto 30px;
+
+    font-size: 1.45rem;
+    font-weight: 400;
+    line-height: 1.7;
+
+    color: #756b61;
+}
+
+/* Introduction */
+
+.hero p {
+    max-width: 650px;
+
+    margin: 0 auto;
+
+    font-size: 1.05rem;
+    line-height: 1.9;
+
+    color: #756b61;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2.7rem;
+    }
+
+    .hero h3 {
+        font-size: 1.2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}

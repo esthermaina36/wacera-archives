@@ -1,10 +1,13 @@
 import "./Photos.css";
 import PhotoSection from "../components/PhotoSection";
 import { flowers } from "../data/photoData";
-
+import BackButton from "../components/BackButton";
 function Photos() {
   return (
     <div className="photos-page">
+     <BackButton to="/dashboard">
+  Back to Dashboard
+</BackButton>
       <h1>Beauty Through My Eyes</h1>
 
       <p className="photos-intro">
@@ -17,7 +20,9 @@ function Photos() {
         photos={flowers}
       />
     </div>
+   
   );
+   
 }
 
 export default Photos;
