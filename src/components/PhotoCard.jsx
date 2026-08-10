@@ -1,12 +1,17 @@
 import "./PhotoCard.css";
 
-function PhotoCard({ image, title, location, date }) {
+function PhotoCard({ image, title, location, date, onClick }) {
   return (
     <div className="photo-card">
+
       <img
         src={image}
         alt={title || "Memory"}
         className="photo-image"
+        onClick={() => {
+          console.log("Photo clicked");
+          onClick();
+        }}
       />
 
       {(title || location || date) && (
@@ -16,6 +21,7 @@ function PhotoCard({ image, title, location, date }) {
           {date && <span>{date}</span>}
         </div>
       )}
+
     </div>
   );
 }

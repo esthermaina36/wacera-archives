@@ -4,6 +4,7 @@ import "./SongSection.css";
 function SongSection({ title, songs }) {
   return (
     <section className="song-section">
+
       <h2>{title}</h2>
 
       <div className="song-list">
@@ -17,6 +18,7 @@ function SongSection({ title, songs }) {
           />
         ))}
       </div>
+
     </section>
   );
 }

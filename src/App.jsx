@@ -21,6 +21,8 @@ import Kiandangoro from "./pages/my-exploits/Kiandangoro";
 import Photos from "./pages/Photos";
 import Videos from "./pages/Videos";
 import Songs from "./pages/Songs";
+import Thoughts from "./pages/Thoughts";
+
 
 function App() {
   return (
@@ -48,6 +50,7 @@ function App() {
       <Route path="/photos" element={<Photos />} />
       <Route path="/videos" element={<Videos />} />
       <Route path="/songs" element={<Songs />} />
+      <Route path="/thoughts" element={<Thoughts />} />
     </Routes>
     </>
   );

@@ -1,0 +1,57 @@
+.thought-card {
+    min-height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 35px;
+
+    box-sizing: border-box;
+
+    background: rgba(255, 255, 255, 0.38);
+
+    border: 1px solid rgba(117, 107, 97, 0.2);
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 12px rgba(75, 59, 43, 0.08);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.thought-card:hover {
+    transform: translateY(-5px) rotate(0deg);
+
+    box-shadow: 0 10px 22px rgba(75, 59, 43, 0.14);
+}
+
+.thought-card p {
+    margin: 0;
+
+    font-size: 1.05rem;
+
+    line-height: 1.8;
+
+    text-align: center;
+
+    color: #4b3b2b;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+    .thought-card {
+        min-height: 250px;
+
+        padding: 25px;
+    }
+
+    .thought-card p {
+        font-size: 1rem;
+
+        line-height: 1.7;
+    }
+}

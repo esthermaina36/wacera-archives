@@ -1,14 +1,14 @@
 import "./VideoCard.css";
 
-function VideoCard({ video, title, caption }) {
+function VideoCard({ video, title, caption, onClick }) {
   return (
     <article className="video-card">
       <div className="video-wrapper">
         <video
           src={video}
-          controls
-          preload="metadata"
           className="video-player"
+          controls
+          onClick={onClick}
         >
           Your browser does not support the video element.
         </video>

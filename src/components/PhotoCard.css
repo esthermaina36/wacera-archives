@@ -7,6 +7,9 @@
     cursor: pointer;
 
     break-inside: avoid;
+     box-shadow: 0 6px 18px rgba(75, 59, 43, 0.12);
+     border: 1px solid rgba(140, 109, 70, 0.18);
+
 }
 
 .photo-image {

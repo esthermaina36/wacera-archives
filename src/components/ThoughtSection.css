@@ -1,0 +1,24 @@
+.thought-section {
+    width: 100%;
+    max-width: 1000px;
+
+    margin: 0 auto;
+}
+
+.thought-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+    .thought-grid {
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+    }
+}

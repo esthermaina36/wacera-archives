@@ -3,6 +3,7 @@ import "./SongCard.css";
 function SongCard({ title, artist, month, note }) {
   return (
     <article className="song-card">
+
       <div className="song-icon">
         🎵
       </div>
@@ -10,12 +11,23 @@ function SongCard({ title, artist, month, note }) {
       <div className="song-info">
         <h3>{title}</h3>
 
-        <p className="song-artist">{artist}</p>
+        <p className="song-artist">
+          {artist}
+        </p>
 
-        {month && <p className="song-month">{month}</p>}
+        {month && (
+          <p className="song-month">
+            {month}
+          </p>
+        )}
 
-        {note && <p className="song-note">{note}</p>}
+        {note && (
+          <p className="song-note">
+            {note}
+          </p>
+        )}
       </div>
+
     </article>
   );
 }

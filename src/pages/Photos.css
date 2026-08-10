@@ -73,3 +73,44 @@
         grid-template-columns: 1fr;
     }
 }
+.photo-lightbox {
+    position: fixed;
+    inset: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(40, 32, 25, 0.45);
+
+    backdrop-filter: blur(8px);
+
+    z-index: 1000;
+}
+.lightbox-image {
+    max-width: 85%;
+    max-height: 85vh;
+
+    object-fit: contain;
+
+    border-radius: 18px;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+}
+.lightbox-close {
+    position: absolute;
+
+    top: 25px;
+    right: 35px;
+
+    border: none;
+    background: transparent;
+
+    color: white;
+
+    font-size: 2.5rem;
+
+    cursor: pointer;
+
+    z-index: 1001;
+}

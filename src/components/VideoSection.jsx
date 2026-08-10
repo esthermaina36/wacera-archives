@@ -1,7 +1,7 @@
 import VideoCard from "./VideoCard";
 import "./VideoSection.css";
 
-function VideoSection({ title, videos }) {
+function VideoSection({ title, videos, onVideoClick }) {
   return (
     <section className="video-section">
       <h2>{title}</h2>
@@ -13,6 +13,7 @@ function VideoSection({ title, videos }) {
             video={video.video}
             title={video.title}
             caption={video.caption}
+            onClick={() => onVideoClick(video.video)}
           />
         ))}
       </div>

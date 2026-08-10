@@ -1,8 +1,11 @@
+import { useState } from "react";
 import "./Photos.css";
 import PhotoSection from "../components/PhotoSection";
 import { flowers } from "../data/photoData";
 import BackButton from "../components/BackButton";
 function Photos() {
+  const [selectedImage, setSelectedImage] = useState(null);
+
   return (
     <div className="photos-page">
      <BackButton to="/dashboard">
@@ -16,9 +19,29 @@ function Photos() {
       </p>
 
       <PhotoSection
-        title="🌸 Flowers That Found Me"
-        photos={flowers}
-      />
+  title="🌸 Flowers That Found Me"
+  photos={flowers}
+  onPhotoClick={setSelectedImage}
+/>
+
+{selectedImage && (
+  <div className="photo-lightbox">
+    onClick={() => setSelectedImage(null)}
+    <button
+      className="lightbox-close"
+      onClick={() => setSelectedImage(null)}
+    >
+      ×
+    </button>
+
+    <img
+      src={selectedImage}
+      alt="Selected memory"
+      className="lightbox-image"
+onClick={(event) => event.stopPropagation()}
+    />
+  </div>
+)}
     </div>
    
   );

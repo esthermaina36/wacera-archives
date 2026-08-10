@@ -1,9 +1,12 @@
+import { useState } from "react";
 import VideoSection from "../components/VideoSection";
 import BackButton from "../components/BackButton";
 import { videos } from "../data/videoData";
 import "./Videos.css";
 
 function Videos() {
+  const [selectedVideo, setSelectedVideo] = useState(null);
+
   return (
     <main className="videos-page">
 
@@ -22,7 +25,30 @@ function Videos() {
       <VideoSection
         title="Moments Worth Remembering"
         videos={videos}
+        onVideoClick={setSelectedVideo}
       />
+
+      {selectedVideo && (
+        <div className="video-lightbox">
+
+          <button
+            className="lightbox-close"
+            onClick={() => setSelectedVideo(null)}
+          >
+            ×
+          </button>
+
+          <video
+            src={selectedVideo}
+            className="lightbox-video"
+            controls
+            autoPlay
+          >
+            Your browser does not support the video element.
+          </video>
+
+        </div>
+      )}
 
     </main>
   );
