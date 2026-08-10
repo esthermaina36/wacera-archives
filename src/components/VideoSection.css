@@ -1,0 +1,59 @@
+.video-section {
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.video-section h2 {
+    margin: 0 0 35px;
+
+    text-align: center;
+
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+
+    color: #4b3b2b;
+}
+
+.video-section h2::after {
+    content: "";
+
+    display: block;
+
+    width: 45px;
+    height: 2px;
+
+    margin: 10px auto 0;
+
+    background: #9a8b78;
+
+    border-radius: 10px;
+}
+
+/* Video layout */
+
+.video-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 35px 25px;
+
+    align-items: start;
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+    .video-grid {
+        grid-template-columns: 2fr 2fr;
+    }
+}
+
+/* Phone */
+
+@media (max-width: 600px) {
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+}

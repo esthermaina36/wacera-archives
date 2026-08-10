@@ -1,0 +1,33 @@
+.song-section {
+    width: 100%;
+    max-width: 850px;
+
+    margin: 0 auto;
+}
+
+.song-section h2 {
+    margin: 0 0 35px;
+
+    text-align: center;
+
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+
+    color: #4b3b2b;
+}
+
+.song-section h2::after {
+    content: "";
+
+    display: block;
+
+    width: 45px;
+    height: 2px;
+
+    margin: 10px auto 0;
+
+    background: #9a8b78;
+
+    border-radius: 10px;
+}

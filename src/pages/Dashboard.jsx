@@ -34,8 +34,13 @@ function Dashboard() {
       />
        <ArchiveCard
       title="🎵 Photos"
-      description=""
+      description="Pieces of beauty I couldn't leave behind. They were eye catching and breathe taking"
       to="/photos"
+      />
+        <ArchiveCard
+      title="Videos"
+      description="Moments that were too alive and too beautiful to be captured in a photograph."
+      to="/videos"
       />
     <BackButton to="/">
  Home
