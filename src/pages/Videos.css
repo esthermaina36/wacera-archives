@@ -9,6 +9,22 @@
     text-align: center;
 }
 
+.videos-header h1 {
+    margin: 0 0 15px;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #4b3b2b;
+}
+
+.videos-header p {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #756b61;
+}
+
+/* Video lightbox */
+
 .video-lightbox {
     position: fixed;
     inset: 0;
@@ -16,6 +32,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    padding: 30px;
 
     background: rgba(40, 32, 25, 0.45);
 
@@ -52,4 +70,46 @@
     cursor: pointer;
 
     z-index: 1001;
+
+    transition: transform 0.2s ease;
+}
+
+.lightbox-close:hover {
+    transform: scale(1.1);
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+    .videos-page {
+        padding: 40px 5% 60px;
+    }
+
+    .videos-header {
+        margin-bottom: 50px;
+    }
+
+    .videos-header h1 {
+        font-size: 2.4rem;
+    }
+
+    .videos-header p {
+        font-size: 1rem;
+    }
+
+    .video-lightbox {
+        padding: 15px;
+    }
+
+    .lightbox-video {
+        max-width: 95%;
+        max-height: 75vh;
+        border-radius: 14px;
+    }
+
+    .lightbox-close {
+        top: 15px;
+        right: 20px;
+        font-size: 2.2rem;
+    }
 }

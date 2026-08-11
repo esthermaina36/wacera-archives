@@ -8,10 +8,7 @@ function PhotoCard({ image, title, location, date, onClick }) {
         src={image}
         alt={title || "Memory"}
         className="photo-image"
-        onClick={() => {
-          console.log("Photo clicked");
-          onClick();
-        }}
+        onClick={onClick}
       />
 
       {(title || location || date) && (

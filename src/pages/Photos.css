@@ -1,5 +1,9 @@
 .photos-page {
+    width: 100%;
     min-height: 100vh;
+
+    box-sizing: border-box;
+
     padding: 60px 7% 80px;
 }
 
@@ -11,7 +15,10 @@
     text-align: center;
 
     font-size: 3rem;
+
     font-weight: 500;
+
+    line-height: 1.2;
 
     color: #4b3b2b;
 }
@@ -26,6 +33,7 @@
     text-align: center;
 
     font-size: 1.05rem;
+
     line-height: 1.8;
 
     color: #756b61;
@@ -43,43 +51,22 @@
     align-items: start;
 }
 
-/* Responsive */
+/* Lightbox */
 
-@media (max-width: 900px) {
-    .photos-page {
-        padding: 50px 5% 70px;
-    }
-
-    .photo-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 600px) {
-    .photos-page {
-        padding: 40px 5% 60px;
-    }
-
-    .photos-page h1 {
-        font-size: 2.3rem;
-    }
-
-    .photos-intro {
-        font-size: 1rem;
-        margin-bottom: 50px;
-    }
-
-    .photo-grid {
-        grid-template-columns: 1fr;
-    }
-}
 .photo-lightbox {
     position: fixed;
+
     inset: 0;
 
     display: flex;
+
     justify-content: center;
+
     align-items: center;
+
+    padding: 20px;
+
+    box-sizing: border-box;
 
     background: rgba(40, 32, 25, 0.45);
 
@@ -87,8 +74,10 @@
 
     z-index: 1000;
 }
+
 .lightbox-image {
-    max-width: 85%;
+    max-width: 85vw;
+
     max-height: 85vh;
 
     object-fit: contain;
@@ -97,13 +86,16 @@
 
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
 }
+
 .lightbox-close {
     position: absolute;
 
     top: 25px;
+
     right: 35px;
 
     border: none;
+
     background: transparent;
 
     color: white;
@@ -113,4 +105,90 @@
     cursor: pointer;
 
     z-index: 1001;
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+    .photos-page {
+        padding: 50px 5% 70px;
+    }
+
+    .photos-page h1 {
+        font-size: 2.6rem;
+    }
+
+    .photos-intro {
+        margin-bottom: 55px;
+
+        font-size: 1rem;
+    }
+
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 18px;
+    }
+
+    .lightbox-image {
+        max-width: 90vw;
+
+        max-height: 80vh;
+    }
+}
+
+/* Phone */
+
+@media (max-width: 600px) {
+    .photos-page {
+        padding: 45px 5% 60px;
+    }
+
+    .photos-page h1 {
+        font-size: 2.3rem;
+    }
+
+    .photos-intro {
+        margin-bottom: 50px;
+
+        font-size: 0.98rem;
+
+        line-height: 1.7;
+    }
+
+    .photo-grid {
+        grid-template-columns: 1fr;
+
+        gap: 18px;
+    }
+
+    .photo-lightbox {
+        padding: 15px;
+    }
+
+    .lightbox-image {
+        max-width: 94vw;
+
+        max-height: 75vh;
+    }
+
+    .lightbox-close {
+        top: 15px;
+
+        right: 20px;
+
+        font-size: 2.2rem;
+    }
+}
+
+/* Small phones */
+
+@media (max-width: 380px) {
+    .photos-page h1 {
+        font-size: 2rem;
+    }
+
+    .photos-intro {
+        font-size: 0.92rem;
+    }
 }

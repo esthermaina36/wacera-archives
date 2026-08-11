@@ -33,7 +33,7 @@ function Dashboard() {
       to="/thoughts"
       />
        <ArchiveCard
-      title="🎵 Photos"
+      title="🌸 Photos"
       description="Pieces of beauty I couldn't leave behind. They were eye catching and breathe taking"
       to="/photos"
       />

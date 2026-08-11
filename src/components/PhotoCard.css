@@ -1,19 +1,24 @@
 .photo-card {
     position: relative;
+
     overflow: hidden;
+
+    width: 100%;
 
     border-radius: 18px;
 
     cursor: pointer;
 
     break-inside: avoid;
-     box-shadow: 0 6px 18px rgba(75, 59, 43, 0.12);
-     border: 1px solid rgba(140, 109, 70, 0.18);
 
+    box-shadow: 0 6px 18px rgba(75, 59, 43, 0.12);
+
+    border: 1px solid rgba(140, 109, 70, 0.18);
 }
 
 .photo-image {
     width: 100%;
+
     height: auto;
 
     display: block;
@@ -29,10 +34,13 @@
 
 .photo-overlay {
     position: absolute;
+
     inset: 0;
 
     display: flex;
+
     flex-direction: column;
+
     justify-content: flex-end;
 
     padding: 20px;
@@ -56,8 +64,36 @@
 
 .photo-overlay h3 {
     margin: 0 0 5px;
+
+    font-size: 1.1rem;
 }
 
 .photo-overlay p {
     margin: 0 0 3px;
+
+    font-size: 0.9rem;
+}
+
+.photo-overlay span {
+    font-size: 0.8rem;
+}
+
+/*
+   On touch devices there is no real hover.
+   Keep the image clean rather than forcing the
+   desktop hover overlay to behave strangely.
+*/
+
+@media (max-width: 600px) {
+    .photo-card {
+        border-radius: 15px;
+    }
+
+    .photo-image {
+        border-radius: 15px;
+    }
+
+    .photo-overlay {
+        padding: 15px;
+    }
 }

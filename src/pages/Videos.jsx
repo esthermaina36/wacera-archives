@@ -29,11 +29,15 @@ function Videos() {
       />
 
       {selectedVideo && (
-        <div className="video-lightbox">
+        <div
+          className="video-lightbox"
+          onClick={() => setSelectedVideo(null)}
+        >
 
           <button
             className="lightbox-close"
             onClick={() => setSelectedVideo(null)}
+            aria-label="Close video"
           >
             ×
           </button>
@@ -43,6 +47,7 @@ function Videos() {
             className="lightbox-video"
             controls
             autoPlay
+            onClick={(event) => event.stopPropagation()}
           >
             Your browser does not support the video element.
           </video>

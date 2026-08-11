@@ -1,24 +1,21 @@
-import { Link } from "react-router-dom";
 import "./BooksCard.css";
-function Bookscard (props) {
-    return (
-        <Link to={props.to}>
-       <div className="books-card">
-       
-        <h2>{props.title}</h2>
-        <p>{props.author}</p>
-            <p>{props.about}</p>
-           
-        </div>
-        </Link>
-        
 
-    );
-   
+function Bookscard({ title, author, about }) {
+  return (
+    <article className="books-card">
 
+      <h2>{title}</h2>
+
+      <p className="book-author">
+        {author}
+      </p>
+
+      <p className="book-about">
+        {about}
+      </p>
+
+    </article>
+  );
 }
+
 export default Bookscard;
-
-
-
-

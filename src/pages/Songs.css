@@ -1,5 +1,8 @@
 .songs-page {
+    width: 100%;
     min-height: 100vh;
+
+    box-sizing: border-box;
 
     padding: 60px 7% 80px;
 }
@@ -7,6 +10,7 @@
 /* Header */
 
 .songs-header {
+    width: 100%;
     max-width: 800px;
 
     margin: 35px auto 70px;
@@ -18,37 +22,82 @@
     margin: 0 0 20px;
 
     font-size: 3rem;
+
     font-weight: 500;
+
     letter-spacing: 0.5px;
+
+    line-height: 1.2;
 
     color: #4b3b2b;
 }
 
 .songs-header p {
+    max-width: 750px;
+
     margin: 0 auto;
 
     font-size: 1.05rem;
+
     line-height: 1.9;
 
     color: #756b61;
 }
 
-/* Mobile */
+/* Tablet */
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .songs-page {
-        padding: 40px 5% 60px;
+        padding: 50px 5% 65px;
     }
 
     .songs-header {
-        margin-bottom: 50px;
+        margin-bottom: 55px;
     }
 
     .songs-header h1 {
-        font-size: 2.4rem;
+        font-size: 2.6rem;
     }
 
     .songs-header p {
         font-size: 1rem;
+
+        line-height: 1.8;
+    }
+}
+
+/* Phone */
+
+@media (max-width: 500px) {
+    .songs-page {
+        padding: 45px 5% 55px;
+    }
+
+    .songs-header {
+        margin-top: 25px;
+
+        margin-bottom: 45px;
+    }
+
+    .songs-header h1 {
+        font-size: 2.25rem;
+    }
+
+    .songs-header p {
+        font-size: 0.95rem;
+
+        line-height: 1.7;
+    }
+}
+
+/* Small phones */
+
+@media (max-width: 380px) {
+    .songs-header h1 {
+        font-size: 2rem;
+    }
+
+    .songs-header p {
+        font-size: 0.92rem;
     }
 }

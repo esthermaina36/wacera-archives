@@ -1,17 +1,74 @@
 .books {
+    width: 100%;
     max-width: 900px;
+
+    box-sizing: border-box;
+
     margin: 0 auto;
-    padding: 40px 20px;
+
+    padding: 60px 20px 70px;
 }
 
 .books h1 {
+    margin: 0 0 20px;
+
     text-align: center;
-    margin-bottom: 15px;
+
+    font-size: 3rem;
+
+    font-weight: 500;
+
+    letter-spacing: 0.5px;
+
+    color: #4b3b2b;
 }
 
 .books > p {
-    text-align: center;
     max-width: 700px;
-    margin: 0 auto 40px;
-    line-height: 1.7;
+
+    margin: 0 auto 45px;
+
+    text-align: center;
+
+    font-size: 1.05rem;
+
+    line-height: 1.8;
+
+    color: #756b61;
+}
+
+/* Tablet */
+
+@media (max-width: 700px) {
+    .books {
+        padding: 50px 5% 60px;
+    }
+
+    .books h1 {
+        font-size: 2.6rem;
+    }
+
+    .books > p {
+        font-size: 1rem;
+    }
+}
+
+/* Phone */
+
+@media (max-width: 500px) {
+    .books {
+        padding: 45px 5% 55px;
+    }
+
+    .books h1 {
+        font-size: 2.25rem;
+    }
+
+    .books > p {
+        font-size: 0.95rem;
+
+        line-height: 1.7;
+
+        margin-bottom: 35px;
+    }
 }

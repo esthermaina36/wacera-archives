@@ -1,29 +1,97 @@
 .dashboard {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    min-height: 100vh;
 
-  padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-sizing: border-box;
+
+    padding: 70px 20px 60px;
 }
 
 .dashboard h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-  color: #4b2c63;
+    margin: 0 0 20px;
+
+    text-align: center;
+
+    font-size: 3rem;
+
+    font-weight: 500;
+
+    letter-spacing: 0.5px;
+
+    color: #4b3b2b;
 }
 
-.dashboard p {
-  max-width: 700px;
-  text-align: center;
-  line-height: 1.8;
-  font-size: 1.15rem;
-  color: #5a4866;
+.dashboard > p {
+    max-width: 700px;
 
-  margin-bottom: 30px;
+    margin: 0 0 30px;
+
+    text-align: center;
+
+    line-height: 1.8;
+
+    font-size: 1.1rem;
+
+    color: #756b61;
 }
 
 .dashboard h3 {
-  margin-bottom: 40px;
-  font-weight: 500;
+    margin: 0 0 40px;
+
+    font-size: 1.3rem;
+
+    font-weight: 500;
+
+    color: #4b3b2b;
+}
+
+/* Archive cards */
+
+.dashboard .archive_card {
+    width: min(100%, 700px);
+}
+
+/* Tablet */
+
+@media (max-width: 700px) {
+    .dashboard {
+        padding: 55px 5% 50px;
+    }
+
+    .dashboard h1 {
+        font-size: 2.5rem;
+    }
+
+    .dashboard > p {
+        font-size: 1rem;
+    }
+
+    .dashboard h3 {
+        margin-bottom: 30px;
+    }
+}
+
+/* Phone */
+
+@media (max-width: 500px) {
+    .dashboard {
+        padding: 45px 5% 40px;
+    }
+
+    .dashboard h1 {
+        font-size: 2.2rem;
+    }
+
+    .dashboard > p {
+        font-size: 0.95rem;
+        line-height: 1.7;
+    }
+
+    .dashboard h3 {
+        font-size: 1.15rem;
+        margin-bottom: 25px;
+    }
 }
