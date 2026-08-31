@@ -23,7 +23,13 @@ import Video21 from "../assets/Videos/Video21.mp4";
 import Video22 from "../assets/Videos/Video22.mp4";
 import Video23 from "../assets/Videos/Video23.mp4";
 import Video24 from "../assets/Videos/Video24.mp4";
-
+import Video25 from "../assets/Videos/Video25.mp4";
+import Video26 from "../assets/Videos/Video26.mp4";
+import Video27 from "../assets/Videos/Video27.mp4";
+import Video28 from "../assets/Videos/Video28.mp4";
+import Video29 from "../assets/Videos/Video29.mp4";
+import Video30 from "../assets/Videos/Video30.mp4";
+import Video31 from "../assets/Videos/Video31.mp4";
 
 export const videos = [
   { video: Video1 },
@@ -50,6 +56,13 @@ export const videos = [
   { video: Video22 },
   { video: Video23 },
   { video: Video24 },
+  { video: Video25 },
+  { video: Video26 },
+  { video: Video27 },
+  { video: Video28 },
+  { video: Video29 },
+  { video: Video30 },
+  { video: Video31 },
  
  
 ];

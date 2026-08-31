@@ -41,6 +41,19 @@ import flower39 from "../assets/photos/flowers/flower39.jpg";
 import flower40 from "../assets/photos/flowers/flower40.jpg";
 import flower41 from "../assets/photos/flowers/flower41.jpg";
 import flower42 from "../assets/photos/flowers/flower42.jpg";
+import flower43 from "../assets/photos/flowers/flower43.jpeg";
+import flower44 from "../assets/photos/flowers/flower44.jpeg";
+import flower45 from "../assets/photos/flowers/flower45.jpeg";
+import flower46 from "../assets/photos/flowers/flower46.jpeg";
+import flower47 from "../assets/photos/flowers/flower47.jpeg";
+import flower48 from "../assets/photos/flowers/flower48.jpeg";
+import flower49 from "../assets/photos/flowers/flower49.jpeg";
+import flower50 from "../assets/photos/flowers/flower50.jpeg";
+import flower51 from "../assets/photos/flowers/flower51.jpeg";
+import flower52 from "../assets/photos/flowers/flower52.jpeg";
+import flower53 from "../assets/photos/flowers/flower53.jpeg";
+import flower54 from "../assets/photos/flowers/flower54.jpeg";
+import flower55 from "../assets/photos/flowers/flower55.jpeg";
 export const flowers = [
   { image: flower1 },
   { image: flower2 },
@@ -84,5 +97,18 @@ export const flowers = [
   { image: flower40 },
   { image: flower41 },
   { image: flower42 },
+  { image: flower43 },
+   { image: flower44 },
+  { image: flower45 },
+  { image: flower46 },
+  { image: flower47 },
+  { image: flower48 },
+  { image: flower49 },
+  { image: flower50 },
+  { image: flower51 },
+  { image: flower52 },
+  { image: flower53 },
+  { image: flower54 },
+  { image: flower55 },
 ];
 
