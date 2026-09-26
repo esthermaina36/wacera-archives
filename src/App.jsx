@@ -6,7 +6,7 @@ import Books from "./pages/Books";
 import MyExploits from "./pages/MyExploits";
 import Wamagana from "./pages/my-exploits/Wamagana";
 import Zaina from "./pages/my-exploits/Zaina";
-import Kagumo from "./pages//my-exploits/kagumo";
+import Kagumo from "./pages/my-exploits/Kagumo";
 import Gura from "./pages/my-exploits/Gura";
 import Temptation from "./pages/my-exploits/Temptation";
 import Chinga from "./pages/my-exploits/Chinga";
