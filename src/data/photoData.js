@@ -1,9 +1,6 @@
 
-import flower1 from "../assets/Photos/Flowers/flower1.jpg";
-import flower2 from "../assets/Photos/Flowers/flower2.jpg";
-import flower3 from "../assets/Photos/Flowers/flower3.jpg";
-import flower4 from "../assets/Photos/Flowers/flower4.jpg";
-import flower5 from "../assets/Photos/Flowers/flower5.jpg";
+
+
 import flower6 from "../assets/Photos/Flowers/flower6.jpg";
 import flower7 from "../assets/Photos/Flowers/flower7.jpg";
 import flower8 from "../assets/Photos/Flowers/flower8.jpg";
@@ -55,11 +52,7 @@ import flower53 from "../assets/Photos/Flowers/flower53.jpeg";
 import flower54 from "../assets/Photos/Flowers/flower54.jpeg";
 import flower55 from "../assets/Photos/Flowers/flower55.jpeg";
 export const flowers = [
-  { image: flower1 },
-  { image: flower2 },
-  { image: flower3 },
-  { image: flower4 },
-  { image: flower5 },
+ 
   { image: flower6 },
   { image: flower7 },
   { image: flower8 },
