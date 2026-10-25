@@ -19,6 +19,7 @@ import Ololokwe from "./pages/my-exploits/Ololokwe";
 import Buffalo from "./pages/my-exploits/Buffalo";
 import Kiandangoro from "./pages/my-exploits/Kiandangoro";
 import Njine from "./pages/my-exploits/Njine";
+import Chaka from "./pages/my-exploits/Chaka"
 import Photos from "./pages/Photos";
 import Videos from "./pages/Videos";
 import Songs from "./pages/Songs";
@@ -49,6 +50,7 @@ function App() {
       <Route path="/my-exploits/buffalo-springs" element={<Buffalo/>} />
        <Route path="/my-exploits/kiandangoro-forest" element={<Kiandangoro/>} />
        <Route path="/my-exploits/njine-kabia" element={<Njine/>} />
+       <Route path="/my-exploits/chaka-falls" element={<Chaka/>} />
       <Route path="/photos" element={<Photos />} />
       <Route path="/videos" element={<Videos />} />
       <Route path="/songs" element={<Songs />} />
